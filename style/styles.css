@@ -1,0 +1,97 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/* *********  NAV  ********** */
+.main-menu,
+.hero {
+    display: flex;
+    max-width: 1000px;
+    background: #1F2937;
+    margin: 0 auto; 
+}
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    /* margin-right: 200px; */
+    /* padding-top: 10px; */
+    margin: 10px 10px;
+    /* padding-right: 50px; */
+}
+
+.flex-child {
+    flex: 1;
+    
+}
+
+.menu {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: auto 0;
+    
+     
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    margin: 10px 5px;
+
+}
+
+.menu li {
+    margin-right: 10px;
+}
+
+a {
+    color: white;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    padding: 0 2px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+ }
+
+ /* ********** HERO SECTION ********** */
+
+ .hero {
+     padding-top: 25px;
+ }
+
+ 
+.hero-text h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0 10px;
+}
+
+.hero-text p {
+    color: #E5E7EB;
+    font-size: 18px; 
+    margin: 15px 10px;
+}
+
+button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 50px 50px 10px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
